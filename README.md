@@ -135,7 +135,7 @@ Example commands:
 ### Deployment
 
 You can deploy this project using:
-Github Pages
+- Github Pages
 
 <!--
 Example:
@@ -196,7 +196,7 @@ Give a ⭐️ if you like this project
 
 
 I would like to thank...
-Microverse for the design Template.
+- Microverse for the design Template.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
