@@ -1,44 +1,49 @@
-const form = document.getElementById('book-form');
-const bookContainer = document.querySelector('add');
-// const bookName = form.title;
-// const author = form.author;
-
-const books = [];
-
-class book {
-  constructor(bookName, author) {
-    this.title = bookName;
-    this.author = author;
+const body = document.querySelector('.body-1');
+const bookLists = [
+  {
+   Title: 'Alchemy',
+   Author: 'Shakespeare'
+  },
+  {
+    Title: 'Sparrow',
+    Author: 'Jack Hensaw'
+  },
+  {
+    Title: 'Spark',
+    Author: 'Hack Jensaw'
   }
-}
+];
 
-const addBook = (bookName, author) => {
-  books.push({
-    bookName,
-    author,
+function printfn() {
+  bookLists.forEach(book => {
+    const newDiv = document.createElement('div');
+    newDiv.innerHTML = `
+    <p>${book.Title}</p>
+    <p>${book.Author}</p>
+    <button type="button" value="Remove">Remove</button>
+    <hr>
+    `;
+    body.append(newDiv);
+  
   });
 
-  return { bookName, author };
-};
+}
 
-const createBooks = ({ title, author }) => {
-  const bookDiv = document.createElement('div');
-  const bookTitle = document.createElement('p');
-  const bookAuthor = document.createElement('p');
+const addBtn = document.getElementById('btn');
+const title = document.getElementById('title');
+const author = document.getElementById('author');
 
-  bookTitle.innerHTML = ` Title: ${title}`;
-  bookAuthor.innerHTML = ` author: ${author}`;
+addBtn.addEventListener('click', () => {
+  bookLists.push(
+  {
+    Title: title.value,
+    Author: author.value
+  });
+  localStorage.setItem('books', JSON.stringify(bookLists));
+  printfn();
+});
 
-  bookDiv.append(bookTitle, bookAuthor);
-  bookContainer.appendChild(bookDiv);
-};
 
-books.forEach(createBooks);
 
-books.push('uche', 'book');
 
-//form.onsubmit = (e) => {
- // e.preventDefault();
 
-  books.push('uche', 'book');
-};

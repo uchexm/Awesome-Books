@@ -8,26 +8,24 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="nav-bar">
-    <ul class="nav-menu">
-      <li id="logo"><a href="index.html">Awesome Books</a></li>
-      <li class="nav-list"><a href="index.html">List</a></li>
-      <li class="nav-list"><a href="addnew.html">Add new</a></li>
-      <li class="nav-list"><a href="contact.html">Contact</a></li>
-    </ul>
-  </header>
+ <div class="body-1">
+  <h1 class="heading">
+    Awesome books
+  </h1>
+ </div>
   <main class="main-body">
-    <p id="date">28/November 2022 9:30AM</p>
-    <h1 id="heading">All awesome books</h1>
-    <div id="book-lists">
-      <form action="Remove" class="books aa"><a class="author" href="">"Title" by Author</a><a class="tag" href="#Remove">Remove</a></form>
-      <form action="Remove" class="books"><a class="author" href="">"Title" by Author</a> <a class="tag" href="#Remove">Remove</a></form>
-      <form action="Remove" class="books aa"><a class="author" href="">"Title" by Author</a><a class="tag" href="#Remove">Remove</a></form>
-      <form action="Remove" class="books"><a class="author" href="">"Title" by Author</a><a class="tag" href="#Remove">Remove</a></form>
-      <form action="Remove" class="books aa"><a class="author" href="">"Title" by Author</a><a class="tag" href="#Remove">Remove</a></form>
-      <form action="Remove" class="books"><a class="author" href="">"Title" by Author</a><a class="tag" href="#Remove">Remove</a></form>
+    <h1 id="heading">Add a new book</h1>
+  </div>
+  <span class="bar"></span>
+  <div class="add">
+   <form id="book-form" action="submit" autocomplete="off"> 
+     <input id="title" name="title" type="text" placeholder="Title"> <br> <br>
+     <input id="author" name="author" type="text" placeholder="Author"> <br><br>
+     <button value="button" type="button" id="btn">Add</button>
+   </form>
+
+  </div>
   </main>
-  <footer>Copyright...</footer>
   <script src="script.js"></script>
 </body>
 </html>
