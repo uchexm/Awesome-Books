@@ -91,7 +91,6 @@ Awesome-books project is a basic website that allows users to add/remove books f
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://github.com/uchexm/Awesome-Books)
 
@@ -110,10 +109,10 @@ Then open index.html on the bowser to run the project
 ### Prerequisites
 
 In order to run this project you need:
-Git
-Shell
-Browser
-Code Editor
+- Git
+- Shell
+- Browser
+- Code Editor
 
 <!--
 Example command:
