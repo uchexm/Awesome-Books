@@ -42,7 +42,6 @@ After you're finished please remove all the comments and instructions!
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🤝 Contributing](#contributing)
@@ -54,15 +53,12 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Awesome Books] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
 
-**[Awesome books]** is a website for a variety of book collections from Awesome users around the world
+Awesome-books project is a basic website that allows users to add/remove books from a list. It showcases the use of JavaScript objects and arrays to dynamically modify the DOM and add basic events..
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
