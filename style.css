@@ -1,6 +1,63 @@
-/* {
- box-sizing: border-box;
- padding: 0;
- margin: 0;
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
-*/
+
+.section {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.book-line {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 8px;
+  align-items: baseline;
+}
+
+.body-1 {
+  border: 2px solid black;
+  margin-bottom: 30px;
+}
+
+.remove {
+  width: fit-content;
+  padding: 5px;
+  margin: 0;
+  height: 30px;
+  text-align: center;
+  box-shadow: 3px 5px black;
+}
+
+.blue {
+  background-color: rgb(187, 187, 189);
+}
+
+hr {
+  width: 15%;
+  background-color: black;
+  height: 2px;
+  margin-bottom: 30px;
+}
+
+#form {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+#author,
+#title {
+  padding: 15px 0;
+}
+
+#btn {
+  align-self: flex-end;
+  width: fit-content;
+  padding: 5px 20px;
+  box-shadow: 3px 5px black;
+}
+
+.heading {
+  text-align: center;
+}
