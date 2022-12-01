@@ -79,3 +79,29 @@ document.addEventListener('click', (removed) => {
     bookstore.deletebook(id);
   }
 });
+document.querySelector('#con').addEventListener('click', () => {
+  document.querySelector('.contact').style.display = 'block';
+  document.querySelector('.book').style.display = 'none';
+  document.querySelector('.add').style.display = 'none';
+});
+
+document.querySelector('#new').addEventListener('click', () => {
+  document.querySelector('.contact').style.display = 'none';
+  document.querySelector('.book').style.display = 'none';
+  document.querySelector('.add').style.display = 'block';
+});
+
+document.querySelector('#lis').addEventListener('click', () => {
+  document.querySelector('.contact').style.display = 'none';
+  document.querySelector('.book').style.display = 'block';
+  document.querySelector('.add').style.display = 'none';
+});
+
+document.querySelector('#logo').addEventListener('click', () => {
+  document.querySelector('.contact').style.display = 'none';
+  document.querySelector('.book').style.display = 'block';
+  document.querySelector('.add').style.display = 'none';
+});
+
+const now = new Date();
+document.getElementById('date').innerHTML = now;

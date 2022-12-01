@@ -2,7 +2,50 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.section {
+body {
+  border: 1px solid black;
+  height: 100vh;
+}
+
+.nav-bar {
+  width: 99%;
+  margin: 2px 2px 5px 4px;
+}
+
+.nav-menu {
+  list-style: none;
+  height: 50px;
+  align-items: center;
+  border: 1px solid black;
+  align-self: center;
+}
+
+#logo {
+  margin: 15px 0 0 0;
+  cursor: pointer;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  float: right;
+  margin: -15px 20px 0 0;
+  color: black;
+}
+
+.nav-menu a:active {
+  color: blue;
+}
+
+.nav-menu a:hover {
+  color: blue;
+}
+
+#date {
+  margin-left: 64%;
+  margin-bottom: 70px;
+}
+
+#section {
   width: 50%;
   margin: 0 auto;
 }
@@ -32,11 +75,19 @@
   background-color: rgb(187, 187, 189);
 }
 
-hr {
+.hr {
   width: 15%;
   background-color: black;
   height: 2px;
   margin-bottom: 30px;
+}
+
+.hre {
+  width: 1px;
+  background-color: black;
+  height: 20px;
+  display: inline;
+  margin: 0 0 0 14px;
 }
 
 #form {
@@ -60,4 +111,25 @@ hr {
 
 .heading {
   text-align: center;
+  margin-bottom: 50px;
+}
+
+footer {
+  border: 1px solid black;
+  margin: 2px 2px 5px 4px;
+  position: absolute;
+  bottom: 0;
+  width: 98%;
+}
+
+.add {
+  display: none;
+}
+
+.contact {
+  display: none;
+}
+
+.book {
+  display: none;
 }
