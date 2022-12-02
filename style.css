@@ -3,8 +3,10 @@
 }
 
 body {
-  border: 1px solid black;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .nav-bar {
@@ -75,13 +77,6 @@ body {
   background-color: rgb(187, 187, 189);
 }
 
-.hr {
-  width: 15%;
-  background-color: black;
-  height: 2px;
-  margin-bottom: 30px;
-}
-
 .hre {
   width: 1px;
   background-color: black;
@@ -117,9 +112,12 @@ body {
 footer {
   border: 1px solid black;
   margin: 2px 2px 5px 4px;
-  position: absolute;
   bottom: 0;
-  width: 98%;
+  width: 97%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
 }
 
 .add {
@@ -132,4 +130,15 @@ footer {
 
 .book {
   display: none;
+}
+
+#con.active {
+  color: blue;
+}
+
+#new.active {
+  color: blue;
+}
+#lis.active {
+  color: blue;
 }
