@@ -49,7 +49,6 @@ class Books {
   }
 
   deletebook(id) {
-   
     this.bookLists = this.bookLists.filter((b) => b.Id !== id);
     localStorage.setItem('books', JSON.stringify(this.bookLists));
     this.printfn();
@@ -81,10 +80,9 @@ document.addEventListener('click', (removed) => {
 });
 document.getElementById('lis').classList.add('active');
 
-
 document.querySelector('.contact').style.display = 'none';
-  document.querySelector('.book').style.display = 'block';
-  document.querySelector('.add').style.display = 'none';
+document.querySelector('.book').style.display = 'block';
+document.querySelector('.add').style.display = 'none';
 
 document.querySelector('#con').addEventListener('click', () => {
   document.getElementById('con').classList.add('active');
