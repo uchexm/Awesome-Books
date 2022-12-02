@@ -8,28 +8,45 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="section">
-      <h1 class="heading">
+  <header class="nav-bar">
+    <ul class="nav-menu">
+      <li id="logo">Awesome Books</li>
+      <li class="nav-list"><a id="con" href="#">Contact</a></li>
+      <li class="nav-list"><a id="new" href="#">Add new<hr class="hre"></a></li>
+      <li class="nav-list"><a id="lis" href="#">List <hr class="hre"></a></li> 
+    </ul>
+    <p id="date"></p>
+  </header>
+    <section id="section">
+      <div class="book">
+        <h1 class="heading">
         All awesome books
-      </h1>
-    <div class="body-1">
-    </div>
-    <main class="main-body">
+        </h1>
+        <div class="body-1">
+          <!--This section loads dynamically-->
+        </div>
       </div>
-      <hr>
+    <main class="add">
       <h1 class="heading">
         Add a new book
       </h1>
-    <div class="add">
-    <form id="form" action="submit" autocomplete="off"> 
-      <input id="title" name="title" type="text" placeholder="Title"> <br> <br>
-      <input id="author" name="author" type="text" placeholder="Author"> <br><br>
-      <button value="button" type="button" id="btn">Add</button>
-    </form>
-
-    </div>
+      <form id="form" action="submit" autocomplete="off"> 
+        <input id="title" name="title" type="text" placeholder="Title"> <br> <br>
+        <input id="author" name="author" type="text" placeholder="Author"> <br><br>
+        <button value="button" type="button" id="btn">Add</button>
+      </form>
     </main>
+    <div class="contact">
+      <h1 class="heading">Contact information</h1>
+      <p id="p">Do you have any questions or you just want to say "Hello"? <br> You can reach out to us!</p>
+      <ul id="co-ul" class="co-ul">
+        <li id="email">our email: nwakauc1@gmail.com</li>
+        <li id="email">our phone number: 0029567304738</li>
+        <li id="email">our address 11 bellavie carmine drive California Usa</li>
+      </ul>
+  </div>
   </section>
+  <footer>Copyright...</footer>
   <script src="script.js"></script>
 </body>
 </html>

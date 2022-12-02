@@ -92,7 +92,7 @@ Awesome-books project is a basic website that allows users to add/remove books f
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://github.com/uchexm/Awesome-Books)
+- [Live Demo Link](https://uchexm.github.io/Awesome-Books/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
