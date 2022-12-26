@@ -196,7 +196,7 @@ Give a ⭐️ if you like this project.
 
 
 I would like to thank...
-- Microverse for the design Template.
+- Microverse for the design Template for this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
